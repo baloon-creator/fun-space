@@ -1,4 +1,4 @@
-#Hitung Luas Segitiga sederhana
+#Hitung Luas Bangun Datar
 def luas_segitiga():
     a = int(input("Masukkan Alas Segitiga: "))
     t = int(input("Masukkan Tinggi Segitiga: "))
@@ -14,3 +14,11 @@ def luas_persegi_panjang():
     print("Luas Persegi Panjang adalah ", luas)
 
 luas_persegi_panjang()
+
+def luas_lingkaran():
+    r = int(input("Masukkan Jari-jari Lingkaran: "))
+    luas = 3.14 * r * r
+    print("Luas Lingkaran adalah ", luas)
+
+luas_lingkaran()
+
